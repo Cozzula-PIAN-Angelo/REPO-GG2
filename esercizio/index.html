@@ -95,15 +95,15 @@
           <form method="get" action="/esercizio/bravo.html">
             <div>
                 <label for="name">Nome</label>
-                <input type="text" id="" name="name" placeholder="Nome"/>
+                <input type="text" id="name" name="name" placeholder="Nome" required/>
             </div>
             <div>
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="tu@esempio.it"/>
+                <input type="email" id="email" name="email" placeholder="tu@esempio.it" required/>
             </div>
             <div>
                 <label for="Reason">Motivo del contatto</label>
-                <select>
+                <select required>
                     <option value="" selected></option>
                     <option value="UP" selected>Uccissione piante</option>
                     <option value="CP" selected>Controllo piante</option>
@@ -112,7 +112,7 @@
             </div>
             <div>
                 <label for="date">Data per la risposta</label>
-                <input type="date" id="date" name="date"/>
+                <input type="date" id="date" name="date" required/>
             </div>
             <div>
                 <label for="name"></label>
@@ -120,18 +120,14 @@
             </div>
             <div>
                 <label for="consense">Accetto di essere ricontattato</label>
-                <input type="checkbox" id="consense" name="consense"/>
+                <input type="checkbox" id="consense" name="consense" required/>
             </div>
             <div>
                 <button type="submit" id="sendfront">INVIA</button>
                 <button type="reset" id="clearform">CANCELLA</button>
             </div>
-
-
-
-
-          </form>
-      </div>
+            </form>
+        </div>
 </main>
   <hr>
   <footer>
